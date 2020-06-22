@@ -6,6 +6,7 @@ IaaS as code using terraform envirronement. The Terraform files are intented to 
 
 Notes : v1 does not include PaaS services for security firewalling and routing but rely on Linux tooling for Router ( Iptable and route table )  and WAF ( Nginx ) . For Site to Site conection, native azure VPN is used. 
 
+*************
 
 ![Alt text](/hub_v1.jpg?raw=true "hub topology demo")
 
