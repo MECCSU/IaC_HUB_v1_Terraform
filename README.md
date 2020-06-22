@@ -2,6 +2,7 @@
 Quick demo for a HUB on Azure using terraform files
 
 *************
-IaaS as code using terraform envirronement 
-No PaaS services for security firewalling and routing 
-Only infra, no post configuration.
+IaaS as code using terraform envirronement. The Terraform files are intented to be used along with Azure DevOps pipelines to be deployed. 
+You can fork this Github Repo and use it to enjoy Azure DevOps. 
+Notes : v1 does not include PaaS services for security firewalling and routing but rely on Linux tooling for Router ( Iptable and route table )  and WAF ( Nginx ) . 
+For Site to Site conection, native azure VPN is used. 
